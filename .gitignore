@@ -172,3 +172,25 @@ cython_debug/
 
 # PyPI configuration file
 .pypirc
+
+# Python virtual environments
+venv/
+.env/
+
+# Compiled binaries
+*.exe
+*.dll
+
+# Build folders
+/build/
+/bin/
+/CMakeFiles/
+CMakeCache.txt
+cmake_install.cmake
+Makefile
+
+# Model files (they're huge and shouldn't go in the repo)
+*.gguf
+
+# Hugging Face cache
+.cache/
